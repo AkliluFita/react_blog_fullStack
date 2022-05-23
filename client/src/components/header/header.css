@@ -1,0 +1,30 @@
+.header {
+  /* margin-top: 60px; */
+  height: 70vh;
+  top: 0;
+  background-image: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2016/12/create-quality-wallpapers.jpg?q=50&fit=contain&w=943&h=472&dpr=1.5");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: rgb(243, 231, 231);
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+  color: rgb(243, 231, 231);
+}
